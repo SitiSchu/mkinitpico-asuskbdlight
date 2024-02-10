@@ -10,6 +10,6 @@ pkgbase = mkinitpico-asuskbdlight
 	source = README.md
 	sha256sums = 9a8965d6358e3d47a895775e25ce14e80a91a80c6d10133e4055c673a7abfcec
 	sha256sums = 3234b06ab62a196d7b065ead8d75ef62b5a14b6aec4206f6d3e9d628376aca84
-	sha256sums = fcbe6e6d9c361531302ed248eb82246c08e07596a81fbff5f67b24a8b06f87e3
+	sha256sums = 083b01efbd9c8e42dee2acf72e9c943ba590afdff6cbc894a14264e33e520616
 
 pkgname = mkinitpico-asuskbdlight

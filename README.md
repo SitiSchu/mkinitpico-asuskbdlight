@@ -3,6 +3,8 @@
 This is a initcpio hook that can be used to turn the `/sys/class/leds/asus::kbd_backlight` keyboard
 backlight on during boot. This is usefull when prompted to type the LUKS passphrase, for instance.
 
+Only tested on a ASUS B9940UA
+
 ## Install
 
 Build:

@@ -1,11 +1,11 @@
-# Maintainer: SitiSchu
-
+# Maintainer: SitiSchu <info@sitischu.com>
 pkgname=mkinitpico-asuskbdlight
-pkgdesc="mkinitpico hook that turns the asus keyboard backlight on"
 pkgver=1.0
 pkgrel=1
-license=(MIT)
+pkgdesc="mkinitpico hook that turns the asus keyboard backlight on"
 arch=(any)
+url="https://github.com/SitiSchu/mkinitpico-asuskbdlight"
+license=('MIT')
 depends=(mkinitcpio)
 source=(asuskbdlight-hook
 		asuskbdlight-install

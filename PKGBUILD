@@ -1,7 +1,7 @@
 # Maintainer: SitiSchu
 
 pkgname=mkinitpico-asuskbdlight
-pkgdesc="initramfs hook that turns the asus keyboard backlight on"
+pkgdesc="mkinitpico hook that turns the asus keyboard backlight on"
 pkgver=1.0
 pkgrel=1
 license=(MIT)

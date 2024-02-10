@@ -1,14 +1,14 @@
-# Maintainer: Primalmotion <primalmation at pm dot me>
+# Maintainer: SitiSchu
 
-pkgname=initramfs-l14kbdlight
-pkgdesc="initramfs hook that turns Librem 14 keyboard on"
+pkgname=mkinitpico-asuskbdlight
+pkgdesc="initramfs hook that turns the asus keyboard backlight on"
 pkgver=1.0
-pkgrel=3
+pkgrel=1
 license=(MIT)
 arch=(any)
 depends=(mkinitcpio)
-source=(l14kbdlight-hook
-		l14kbdlight-install
+source=(asuskbdlight-hook
+		asuskbdlight-install
 		README.md)
 
 build() {
@@ -19,13 +19,13 @@ package() {
 	mkdir -p "${pkgdir}/usr/lib/initcpio/hooks"
 	mkdir -p "${pkgdir}/usr/lib/initcpio/install"
 
-	cp "${srcdir}/l14kbdlight-hook" "${pkgdir}/usr/lib/initcpio/hooks/l14kbdlight"
-	cp "${srcdir}/l14kbdlight-install" "${pkgdir}/usr/lib/initcpio/install/l14kbdlight"
+	cp "${srcdir}/asuskbdlight-hook" "${pkgdir}/usr/lib/initcpio/hooks/asuskbdlight"
+	cp "${srcdir}/asuskbdlight-install" "${pkgdir}/usr/lib/initcpio/install/asuskbdlight"
 
 	mkdir -p "${pkgdir}/usr/share/doc/${pkgname}"
 	cp "${srcdir}/README.md" "${pkgdir}/usr/share/doc/${pkgname}/"
 }
 
-sha256sums=('8197fa26a502eee6472e764cead9d26bc95d5e1c318ab71ceb74a98efa5125f4'
-            '0183c411f86b7dfd15c3025f8cee7d2f84df3369b4a9f273fd4e14df210d5261'
-            '3ed869bc25c643c40cf36c76b9c50a3c3e06cd980e87dd68b1fd4e80241630be')
+sha256sums=('9a8965d6358e3d47a895775e25ce14e80a91a80c6d10133e4055c673a7abfcec'
+            '3234b06ab62a196d7b065ead8d75ef62b5a14b6aec4206f6d3e9d628376aca84'
+            'fcbe6e6d9c361531302ed248eb82246c08e07596a81fbff5f67b24a8b06f87e3')

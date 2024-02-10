@@ -1,13 +1,13 @@
-#!/bin/bash
+#!/usr/bin/env bash
 
 build() {
-    add_module librem_ec_acpi
+    add_module asus_nb_wmi
     add_runscript
 }
 
 help() {
     cat <<HELPEOF
-Turns on Librem 14 keyboard backlight.
+Turns on the Asus keyboard backlight
 
 HELPEOF
 }
